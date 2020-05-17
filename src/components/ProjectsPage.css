@@ -1,0 +1,102 @@
+.h1-projects {
+  width: 85%;
+  margin:auto;
+  border-top: 1px black dotted;
+  border-bottom: 1px black dotted;
+  padding: 35px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.project-list {
+  max-width: 800px;
+  margin:auto;
+  padding:0px;
+}
+
+.project-titles a {
+  text-decoration:none;
+  font-size: 0.9em;
+  font-weight: bold;
+  color:rgb(231, 157, 18);
+} 
+
+.ul-projects {
+  padding: 0px;
+  list-style: none;
+}
+
+.li-projects {
+  padding: 10px;
+  margin: 30px;
+  position: relative;
+}
+
+.project-titles{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+img {
+  width: 100%;
+  max-width:800px;
+  border: 1px rgb(214, 194, 194) solid;
+}
+
+
+.li-projects:hover .overlay-btn {
+  opacity: 1;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  transition: all .5s ease;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+}
+
+.overlay-btn {
+  opacity: 0;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 48%;
+  left: 48%;
+  -webkit-transform: translate(-50%,-10%);
+  -moz-transform: translate(-50%,-10%);
+  -ms-transform: translate(-50%,-10%);
+  -o-transform: translate(-50%,-10%);
+  transform: translate(-50%,-10%);
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  transition: all .25s ease;
+  z-index: 3;
+  border-radius: 5px;
+  border: 1px solid #ca8e03;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 1em;
+  margin-bottom: 1em;
+  min-width: 10em;
+}
+
+.outlay {
+  position:relative;
+}
+
+.overlay {
+  opacity: 0;
+  position: absolute;
+  background-color: #75787a;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.li-projects:hover .overlay {
+  opacity: .8;
+}

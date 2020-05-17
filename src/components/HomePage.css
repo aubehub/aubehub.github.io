@@ -1,0 +1,41 @@
+h1 {
+  text-align:center;
+  padding: 50px;
+  color:rgb(231, 157, 18);
+  font-size:1.5em;
+}
+
+.page {
+  margin: 200px;
+}
+
+.webdev-img {
+  display:block;
+  border:none;
+  margin:auto;
+  padding-top: 40px;
+}
+
+.btn-div {
+  padding:135px;
+  text-align:center;
+  }
+
+.btn-home{
+  border-radius: 5px;
+  border: 1px solid #ca8e03;
+  padding: 0.7em 1.5em;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 1em;
+  margin-bottom: 1em;
+  min-width: 10em;
+  color:black;
+}
+
+.btn-home:hover {
+  background-color:rgb(214, 199, 199);
+  color:white;
+}
+

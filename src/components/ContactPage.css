@@ -1,0 +1,26 @@
+.logos{
+  margin: 350px 0;
+  }
+  
+  .ul-logos {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    max-width:500px;
+    margin:auto;
+  }
+  
+  .li-logo {
+    flex-basis: 34%;
+  }
+  
+  .li-logo img {
+    border: none;
+    max-width: 80px;
+    opacity:1;
+  }
+
+  .li-logo img:hover{
+    opacity:0.6;
+  }
+  
