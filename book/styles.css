@@ -1,0 +1,130 @@
+* {
+box-sizing: border-box;  
+}
+
+h1{
+  font-size: 2.4em;
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+.intro{
+  border-top: 1px black solid;
+  padding-top: 10px; 
+  line-height: 15px;
+  width:90%;
+  margin:auto;
+}
+
+header{
+  display: flex;
+  flex-flow:row wrap;
+  justify-content: space-between;
+}
+
+.leftintro2{
+  margin: 35px 0;
+  flex-basis: 45%;
+  text-align: left;
+}
+
+.rightintro2 {
+  margin-top: 45px;
+  flex-basis: 55%;
+  font-size: 1.2em;
+}
+
+#negativo1{
+  border-radius: 10px;
+  width:100%;
+}
+
+body{
+  font-family:'Sulphur Point', sans-serif;
+  font-size: 1.2em; 
+  margin: 0px;
+  background-image: url(./img/abstract1triangle.jpg);
+}
+
+.wrapper{
+  padding: 50px;
+  max-width: 1600px;
+  margin:auto;
+}
+
+.outerlist{
+  background-color: white;
+  padding: 15px;
+  width:50%;
+  height: 426px;
+}
+
+.pic{
+  background-image: url(./img/flowers.jpg);
+  background-size:500px;
+  height: 334px;
+}
+
+.list ol{
+  margin-top: 0px;
+  padding-top: 15px;
+}
+
+li.first {
+  margin-top:10px;
+}
+
+section{
+  display: flex;
+  flex-flow:row nowrap;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.outerpicture{
+  background-color: white;
+  padding: 15px;
+  padding-left: 100px;
+  height: 363px;
+  width:617px;
+  float:right;
+}
+
+.floatleft{
+  flex-basis: 52%;
+}
+
+.img1{
+  width:100%;
+}
+
+.floatright{
+  flex-basis: 42%;
+  font-size: 1.1em;
+}
+
+.outerlist{
+  background-color: white;
+  width:393px;
+  height:426px;
+}
+
+footer{
+  width:90%;
+  border-top: 1px black solid;
+  text-align:center;
+  font-size:15px;
+  margin:auto;
+}
+
+@media (max-width: 1100px) {
+  .leftintro2{
+    flex-basis:90%;
+    margin:auto;
+  }
+  .rightintro2{
+    flex-basis:100%;
+    margin-top: 0px;
+  }
+} 
