@@ -8,7 +8,9 @@ const projects = [
   {name: "CALCULATOR", href: "5-calculadora/begin/calculator.html", imgSrc:"img/calculator.jpg"},
   {name: "DOGGOS", href: "doggos/index.html", imgSrc:"img/doggos.jpg"},
   {name: "LUNA GALLERY", href: "gallery-2/index.html", imgSrc:"img/luna-gallery.jpg"},
-  {name: "FEED A STAR MOLE", href: "gallery-2/index.html", imgSrc:"img/mole-game.jpg"},
+  {name: "FEED A STAR MOLE GAME", href: "game/index.html", imgSrc:"img/moles.jpg"},  
+  {name: "TO-DO-LIST", href:"to-do-list", imgSrc:"img/to-do-list.jpg"},
+  {name: "ROCK, PAPER OR SCISSORS GAME", href:"rock-paper-scissors", imgSrc:"img/rock.jpg"}
 ]
 
 projects.map(project => {

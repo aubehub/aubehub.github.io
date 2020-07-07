@@ -1,23 +1,47 @@
-h1 {
-  text-align:center;
-  padding: 50px;
-  color:rgb(231, 157, 18);
-  font-size:1.5em;
+
+
+.wrap-top{
+  display:flex;
+  height: 200px;
+  margin:auto;
+  margin-top:80px;
+  flex-flow: row nowrap;
+  background-color: rgb(245, 241, 241);
+  width:90%;
 }
 
-.page {
-  margin: 200px;
+.foto-port {
+  flex-basis: 16%;
+  height: 197px;
+  width: 203px;
+  border:none;
+  float:right;
+  margin-left:20%;
+  border-radius: 100px;
+}
+
+.h1-div-home {
+  flex-basis: 85%;
+  padding: 50px;
+  color:rgb(231, 157, 18);
+  font-size:0.8em;
+}
+
+.center-wrap {
+  height: 350px;
+  margin-top: 160px;
 }
 
 .webdev-img {
   display:block;
   border:none;
   margin:auto;
-  padding-top: 40px;
+  padding: 35px;
+  height: 150px;
+  width:200px;
 }
 
 .btn-div {
-  padding:135px;
   text-align:center;
   }
 
